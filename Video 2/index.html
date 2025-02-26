@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+  </head>
+  <body>
+    <!-- Paragraph tag -->
+    <p>hello <span style="color: blueviolet">cutie</span></p>
+
+    <!-- heading tag: h1 to h6 -->
+    <h1>heading 1</h1>
+    <h2>heading 2</h2>
+    <h3>heading 3</h3>
+    <h4>heading 4</h4>
+    <h5>heading 5</h5>
+    <h6>heading 6</h6>
+
+    <!-- List -->
+    <!-- Unordered list -->
+    <ul>
+      <li>spiderman</li>
+      <li>ironman</li>
+      <li>superman</li>
+    </ul>
+
+    <!-- ordered list -->
+    <ol type="A">
+      <li><b>Tanu</b></li>
+      <li><i>Rohin</i></li>
+      <li><u>Sneha</u></li>
+    </ol>
+
+    <!-- Anchor tag -->
+    <!-- <a href="https://www.google.com/">Google</a> -->
+    <div>
+      <a href="http://www.google.com/" target="_blank" rel="noopener noreferrer"
+        >Google</a
+      >
+    </div>
+    <a href="facebook.com">FB</a> <br />
+    <!-- Image tag -->
+    <!-- absolute -->
+    <img
+      src="https://images.freeimages.com/image/previews/553/rainbow-sun-quote-png-5690551.png?fmt=webp&h=350"
+      alt="flower"
+      height="200"
+      width="200"
+    />
+    <hr />
+    <!-- relative -->
+    <img src="spiderman.jpeg" alt="spiderman" />
+
+    <!-- Subscript -->
+    <p>water: H<sub>2</sub>O</p>
+
+    <!-- Superscript -->
+    <p>a<sup>3</sup>+b<sup>3</sup> &gt; &lt;</p>
+
+    <!-- HTML entities -->
+    <p>&copy; &hearts; &trade;</p>
+
+    <p>
+      hello &nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;world
+    </p>
+
+    <!-- Tables -->
+    <table border="black">
+      <caption>
+        Food menu
+      </caption>
+      <thead>
+        <tr>
+          <th rowspan="2">Item</th>
+          <th colspan="2">Price</th>
+        </tr>
+        <tr>
+          <th>INR</th>
+          <th>USD</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sandwich</td>
+          <td>45</td>
+          <td>1</td>
+        </tr>
+        <tr>
+          <td>Momos</td>
+          <td>50</td>
+          <td>2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total</td>
+          <td>95</td>
+          <td>3</td>
+        </tr>
+      </tfoot>
+    </table>
+    <br />
+    <br />
+    <!-- Forms -->
+    <form action="/action.php">
+      <label for="Username">Username:</label>
+      <input
+        type="text"
+        placeholder="enter name"
+        id="Username"
+        name="Username"
+      />
+      <br />
+
+      <label for="">Password:</label>
+      <input type="password" placeholder="enter password" /> <br />
+      <label for="">Number:</label>
+      <input type="number" placeholder="enter number" /> <br />
+      <label for="">Time:</label>
+      <input type="time" /> <br />
+      <label for="">Color:</label>
+      <input type="color" /> <br />
+      <button type="submit">submit</button>
+      <button type="button">click me</button>
+      <button type="reset">RESET</button>
+      <input type="submit" value="Submit :)" />
+      <input type="checkbox" name="" id="" checked />
+      <label for="">login</label>
+
+      <input type="radio" name="" id="">
+      <label for="">tanu</label>
+      <input type="radio" name="" id="">
+      <label for="">rohin</label>
+      <input type="radio" name="" id="">
+      <label for="">preeti</label>
+<br>
+      <select name="" id="">
+        <option value="tanu">tanu1</option>
+        <option value="tanu">tanu2</option>
+        <option value="tanu">tanu3</option>
+        <option value="tanu">tanu4</option>
+        <option value="tanu">tanu5</option>
+      </select>
+
+      <label for="vol">Volume</label>
+      <input type="range" name="" id="" min="0" max="100" step="20" value="70">
+<br>
+      <label for="">message</label><br>
+      <textarea name="" id=""></textarea>
+    </form>
+  </body>
+</html>
